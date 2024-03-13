@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="first_body">
+      <div class="navbar">
+        <div class="container">
+          <div class="tle">SnapChef</div>
+
+          <div class="content">
+            <ul class="items">
+              <li><a class="nalink" href="">Home</a></li>
+              <li><a class="nalink" href="/main.html">Recipes</a></li>
+              <li><a class="nalink" href="/login.html">Log In</a></li>
+              <li><a class="nalink" href="/aboutus.html">About us</a></li>
+            </ul>
+          </div>
+          <div class="searchbar">
+            <P class="go"><a href="#searchWithIngridients">Go to search</a></P>
+          </div>
+        </div>
+      </div>
+      <div class="some">
+        <p>Personalize your experience</p>
+        <h1 class="What">What are your preferences?</h1>
+      </div>
+      <div class="food-di">
+        <div class="food">
+          <div class="food-items f0">
+            <!-- Add any content or styling specific to f0 if needed -->
+            <img
+              src="one.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <h3><a class="nalink" href="#italian">Italian</a></h3>
+            </div>
+          </div>
+          <div class="food-items f1 overlay">
+            <img
+              src="momos.jpg"
+              alt="Chinese Cuisine Image"
+            />
+            <div class="overlay">
+              <h3><a class="nalink" href="#chinese">Chinese</a></h3>
+            </div>
+          </div>
+          <div class="food-items f2">
+            <img
+              src="indian_i.jpeg"
+              alt=""
+            />
+            <div class="overlay">
+              <h3><a class="nalink" href="#indian">Indian</a></h3>
+            </div>
+          </div>
+          <div class="food-items f3">
+            <img
+              src="sal_i.jpeg"
+              alt=""
+            />
+            <div class="overlay">
+              <h3><a class="nalink" href="#vegetarian">Vegetarian</a></h3>
+            </div>
+          </div>
+          <div class="food-items f4">
+            <img
+              src="taco_i.jpg"
+              alt=""
+            />
+            <div class="overlay">
+                <h3><a class="nalink" href="#spanish">Spanish</a></h3>
+            </div>
+          </div>
+          <div class="food-items f5">
+            <img
+              src="fishi.jpg"
+              alt=""
+            />
+            <div class="overlay">
+                <h3><a class="nalink" href="#sea-food">Sea-Food</a></h3>
+            </div>
+          </div>
+          <div class="food-items f6">
+            <img
+              src="des_i.jpeg"
+              alt=""
+            />
+            <div class="overlay">
+                <h3><a class="nalink" href="#dessert">Dessert</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="ne_button">
+        <button class="b"><a class="nalink" href="#trending"></a></button>
+      </div> -->
+      <div class="dknow">
+        <span>Don't know what to pick? </span>
+        <a class="topdish" href=""> Here's our top pick of the day➡️ </a>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="document.getElementById('myModal2').style.display = 'none';">&times;</span>
+        <div style="display: flex; justify-content: center; margin-top: 30px;">
+            <h1>Shahi Paneer</h1>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <h3>indian</h3>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <h4>Instructions:</h4>
+        </div>
+        <p>To make Shahi Paneer, start by heating ghee in a pan and sautéing onions, ginger, and garlic. Add cashews and cook until golden. Then, add tomato puree, turmeric, red chili powder, and garam masala. Cook until the oil separates. Next, add paneer cubes and cook for a few minutes. In a separate pan, heat cream and milk together and add it to the paneer mixture. Cook for a few more minutes until the flavors are well combined. Finally, garnish with chopped coriander leaves and serve hot with naan or rice. Enjoy your delicious Shahi Paneer!</p>
+    </div>
+    </div>
+    <div id="myModal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal1').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Chicken Biryani</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>indian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make biryani, start by marinating chicken with yogurt, ginger-garlic paste, and spices like turmeric, red chili powder, and garam masala. In a separate pan, sauté onions until golden brown. Then, add the marinated chicken and cook until it's tender. In another pot, parboil rice with whole spices like bay leaves, cinnamon, and cardamom. Layer the cooked chicken and rice in a large pot, alternating between the two. Sprinkle saffron-infused milk and fried onions on top. Cover the pot tightly and cook on low heat until the rice is fully cooked and flavors are infused. Serve hot with raita or salan. Enjoy your delicious biryani!</p>
+      </div>
+      </div>
+      <div id="myModal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal3').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Gajar Halwa</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>indian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make Gajar Halwa, start by grating carrots and sautéing them in ghee until they are cooked and tender. Then, add milk and cook until it reduces and thickens. Next, add sugar, cardamom powder, and chopped nuts like almonds and cashews. Cook until the sugar dissolves and the mixture thickens further. Finally, garnish with more nuts and serve hot or cold. Gajar Halwa is a delicious Indian dessert made with carrots and is enjoyed during festivals and special occasions. It is rich, creamy, and has a delightful taste. Enjoy your homemade Gajar Halwa!</p>
+      </div>
+      </div>
+      <div id="myModal4" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal4').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Pasta</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>italian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make pasta, start by boiling water in a large pot and adding salt. Once the water is boiling, add the pasta and cook it according to the package instructions until it is al dente. In a separate pan, heat olive oil and sauté garlic until it becomes fragrant. Then, add your choice of vegetables or protein like mushrooms, bell peppers, or chicken. Cook until they are tender. Next, add your favorite pasta sauce and simmer for a few minutes. Drain the cooked pasta and add it to the sauce. Toss everything together until the pasta is well coated. Finally, garnish with grated cheese and fresh herbs. Serve hot and enjoy your delicious pasta!</p>
+      </div>
+      </div>
+      <div id="myModal5" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal5').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Egg Toast</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>italian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make Egg Toast, start by heating a non-stick pan over medium heat. Add a little butter or oil to the pan. Crack an egg into a small bowl and gently slide it into the pan. Cook the egg until the whites are set and the yolk is still runny, or cook it to your desired level of doneness. While the egg is cooking, toast a slice of bread until it is golden brown. Once the egg is cooked, carefully transfer it onto the toasted bread. Season with salt, pepper, and any other desired seasonings. You can also add toppings like cheese, avocado, or bacon if desired. Serve hot and enjoy your delicious Egg Toast!</p>
+      </div>
+      </div>
+      <div id="myModal6" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal6').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Cookies</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>italian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make cookies, start by preheating your oven to the desired temperature. In a mixing bowl, cream together butter and sugar until light and fluffy. Add eggs and vanilla extract, and mix well. In a separate bowl, whisk together flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined. Fold in your choice of chocolate chips, nuts, or other mix-ins. Drop spoonfuls of dough onto a baking sheet and bake for the recommended time, or until the edges are golden brown. Allow the cookies to cool before enjoying.</p>
+      </div>
+      </div>
+      <div id="myModal7" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal7').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Dumplings</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>chinese</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make dumplings, start by preparing the filling. You can use a variety of ingredients such as ground meat, vegetables, or a combination of both. Season the filling with salt, pepper, and your choice of spices or herbs.Next, prepare the dumpling wrappers. You can make your own dough by combining flour and water, or you can use store-bought wrappers. Roll out the dough into thin circles or squares.Place a spoonful of filling in the center of each wrapper. Fold the wrapper in half and seal the edges by pressing them together. You can also create decorative pleats by folding and pinching the edges.To cook the dumplings, you can either steam, boil, or pan-fry them. If steaming, place the dumplings in a steamer basket and steam for about 10-15 minutes until cooked through. If boiling, bring a pot of water to a boil and add the dumplings. Cook for about 5-7 minutes until they float to the surface. If pan-frying, heat some oil in a pan and place the dumplings in a single layer. Cook until the bottoms are golden brown, then add water to the pan and cover to steam until the dumplings are cooked through.Serve the dumplings hot with your choice of dipping sauce, such as soy sauce, vinegar, or chili oil. Enjoy your homemade dumplings!</p>
+      </div>
+      </div>
+      <div id="myModal8" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal8').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Noodles</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>chinese</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make noodles, start by boiling water in a pot and adding salt. Once the water is boiling, add the noodles and cook them according to the package instructions until they are al dente. In a separate pan, heat oil and sauté garlic and vegetables of your choice. Add soy sauce, oyster sauce, and other seasonings to taste. Drain the cooked noodles and add them to the pan with the vegetables. Toss everything together until the noodles are well coated. Garnish with green onions or sesame seeds. Serve hot and enjoy your delicious homemade noodles!</p>
+      </div>
+      </div>
+      <div id="myModal9" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal9').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Soup</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>chinese</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make soup, start by heating a pot over medium heat. Add a little oil and sauté onions, garlic, and vegetables of your choice until they are softened. Season with salt, pepper, and any desired herbs or spices. Pour in vegetable or chicken broth and bring to a boil. Reduce the heat and let the soup simmer for about 20-30 minutes to allow the flavors to meld together. You can also add cooked meat, pasta, or rice for added texture. Taste and adjust the seasoning if needed. Serve hot and enjoy your homemade soup!Remember to adjust the cooking time and ingredients based on the specific type of soup you want to</p>
+      </div>
+      </div>
+      <div id="myModal10" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal10').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Salad</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>vegetarian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make a delicious salad, start by washing and chopping your choice of fresh vegetables, such as lettuce, tomatoes, cucumbers, and bell peppers. You can also add ingredients like carrots, radishes, or avocado for extra flavor and texture. In a separate bowl, whisk together olive oil, vinegar, lemon juice, salt, and pepper to make a simple dressing. Toss the vegetables with the dressing until well coated. You can also add toppings like croutons, nuts, or cheese for added crunch and flavor. Serve the salad chilled and enjoy a refreshing and healthy meal. Remember to customize the ingredients and dressing to your taste</p>
+      </div>
+      </div>
+      <div id="myModal11" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal11').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Samosa</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>vegetarian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make the dough, you can mix flour, salt, oil, and carom seeds in a bowl. Rub the flour between your palms to incorporate the oil. Then, make a well in the center and add water a little at a time while kneading well for five minutes.To fold the samosa, you can apply some water and flower glue to the wrapper, then bring the longer end to the opposite side and fold. Next, add the filling, press and glue all the edges, and fold along the side to the opposite side.</p>
+      </div>
+      </div>
+      <div id="myModal12" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal12').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Lettuce & Chikpeas</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>vegetarian</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+
+          </div>
+          <p>To make Lettuce & Chickpeas, start by washing and drying the lettuce leaves. Tear the leaves into bite-sized pieces and place them in a large salad bowl. Drain and rinse a can of chickpeas, then add them to the bowl with the lettuce.In a separate small bowl, whisk together olive oil, lemon juice, salt, and pepper to make a simple dressing. Drizzle the dressing over the lettuce and chickpeas, then toss everything together until well coated.You can also add additional ingredients to customize your salad, such as cherry tomatoes, cucumber slices, red onion, or feta cheese. Mix in these ingredients to add more flavor and texture to your salad.Serve the Lettuce & Chickpeas salad immediately and enjoy a refreshing and nutritious meal. Remember to adjust the ingredients and dressing to your taste preferences.</p>
+      </div>
+      </div>
+      <div id="myModal13" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal13').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Salmorejo</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Spanish</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+
+          </div>
+          <p>To make Salmorejo, start by blending ripe tomatoes, garlic, bread, olive oil, and salt in a blender until smooth. Adjust the consistency by adding more bread if needed. Chill the mixture in the refrigerator for at least 2 hours. Serve the chilled Salmorejo in bowls, garnished with diced hard-boiled eggs and diced ham. Drizzle olive oil on top and sprinkle with chopped fresh parsley. Enjoy this traditional Spanish cold tomato soup as a refreshing appetizer or light meal. Customize the flavor by adding a splash of sherry vinegar or topping with croutons for added texture.</p>
+      </div>
+      </div>
+      <div id="myModal14" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal14').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Tortilla</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Spanish</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make a delicious Tortilla, start by peeling and slicing potatoes into thin rounds. Heat olive oil in a non-stick skillet and add the potatoes. Cook them over medium heat until they are tender and slightly golden. In a separate bowl, beat eggs with salt and pepper. Add the cooked potatoes to the beaten eggs and mix well. Heat some more olive oil in the skillet and pour the egg and potato mixture into it. Cook on low heat until the bottom is set. Flip the tortilla using a plate and cook the other side until it is fully set. Serve the Tortilla warm or at room temperature, cut into wedges. Enjoy this classic Spanish dish as a tasty appetizer or main course.</p>
+      </div>
+      </div>
+      <div id="myModal15" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal15').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Churros</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Spanish</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious Churros, start by combining water, butter, sugar, and salt in a saucepan and bring it to a boil. Remove from heat and stir in flour until the mixture forms a smooth dough. Transfer the dough to a piping bag fitted with a star-shaped nozzle. Heat vegetable oil in a deep pan or fryer. Pipe the dough into hot oil, cutting it into desired lengths with scissors. Fry until golden brown and crispy. Remove from oil and drain on paper towels. Roll the churros in a mixture of sugar and cinnamon. Serve warm with chocolate sauce or dulce de leche for dipping. Enjoy these sweet Spanish treats as a delightful dessert or snack.</p>
+      </div>
+      </div>
+      <div id="myModal16" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal16').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Salmon</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Sea-Food</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious salmon, start by preheating your oven to 400°F (200°C). Place the salmon fillets on a baking sheet lined with parchment paper. Drizzle olive oil over the salmon and season with salt, pepper, and your choice of herbs or spices. Squeeze fresh lemon juice over the fillets for added flavor. Bake the salmon in the preheated oven for about 12-15 minutes, or until it flakes easily with a fork. Serve the salmon with your favorite side dishes, such as roasted vegetables or a fresh salad. Enjoy this healthy and flavorful seafood dish!</p>
+      </div>
+      </div>
+      <div id="myModal17" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal17').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Lobster</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Sea-Food</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious lobster, start by boiling a large pot of water. Add salt and any desired seasonings, such as bay leaves or lemon slices, to the water. Carefully place the live lobster into the boiling water and cover the pot. Cook the lobster for about 8-10 minutes per pound, or until the shell turns bright red and the meat is opaque. Remove the lobster from the pot and let it cool slightly before cracking open the shell. Serve the lobster with melted butter and lemon wedges. Enjoy this indulgent seafood dish as a special treat or for a fancy dinner.</p>
+      </div>
+      </div>
+      <div id="myModal18" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal18').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Shellfish</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Sea-Food</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious shellfish, start by cleaning and rinsing the shellfish thoroughly. In a large pot, melt butter and sauté garlic and onions until fragrant. Add the shellfish to the pot and cook for a few minutes until they start to open. Pour in white wine and cover the pot to steam the shellfish until fully cooked and the shells have opened completely. Remove the cooked shellfish from the pot and discard any unopened shells. Serve the shellfish with a squeeze of lemon juice and garnish with fresh herbs. Enjoy this flavorful and savory seafood dish as a delightful appetizer or main course.</p>
+      </div>
+      </div>
+      <div id="myModal19" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal19').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Milk Pudding</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Dessert</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious milk pudding, start by heating milk in a saucepan over medium heat until it reaches a simmer. In a separate bowl, whisk together sugar, cornstarch, and a pinch of salt. Gradually pour the hot milk into the sugar mixture, whisking constantly. Return the mixture to the saucepan and cook over low heat, stirring constantly, until it thickens to a pudding-like consistency. Remove from heat and stir in vanilla extract. Pour the pudding into individual serving dishes and let it cool to room temperature. Refrigerate for at least 2 hours before serving. Enjoy this creamy and comforting dessert!</p>
+      </div>
+      </div>
+      <div id="myModal20" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal20').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>Cake</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Dessert</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make a delicious cake, start by preheating your oven to the recommended temperature. In a mixing bowl, cream together butter and sugar until light and fluffy. Add eggs one at a time, beating well after each addition. In a separate bowl, whisk together flour, baking powder, and salt. Gradually add the dry ingredients to the wet mixture, alternating with milk. Stir in vanilla extract for added flavor. Pour the batter into a greased and floured cake pan. Bake for the recommended time or until a toothpick inserted into the center comes out clean. Let the cake cool before frosting and decorating. Enjoy your homemade cake!</p>
+      </div>
+      </div>
+      <div id="myModal21" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close" onclick="document.getElementById('myModal21').style.display = 'none';">&times;</span>
+          <div style="display: flex; justify-content: center; margin-top: 30px;">
+              <h1>CupCake</h1>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h3>Dessert</h3>
+          </div>
+          <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <h4>Instructions:</h4>
+          </div>
+          <p>To make delicious cupcakes, start by preheating your oven to the recommended temperature. In a mixing bowl, cream together butter and sugar until light and fluffy. Add eggs one at a time, beating well after each addition. In a separate bowl, whisk together flour, baking powder, and salt. Gradually add the dry ingredients to the wet mixture, alternating with milk. Stir in vanilla extract for added flavor. Line a cupcake tray with paper liners and fill each liner with the batter. Bake for the recommended time or until a toothpick inserted into the center comes out clean. Let the cupcakes cool before frosting and decorating. Enjoy your homemade cupcakes!</p>
+      </div>
+      </div>
+</div>
+      </div>
+    </div>
+    <div class="second_body">
+      <div id="trending">
+        <h2>Quick Picks</h2>
+      </div>
+      <div id="indian">
+        <h3>Indian</h3>
+      </div>
+      <div class="grid-container">
+        <!-- Indian -->
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="/09ccee6e-2725-4fae-9f2f-5d1699f9e754.jpeg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>SHAHI PANEER</p>
+            <button class="try" id="myBtn" onclick="getId(2)" >Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="bir.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>BIRYANI</p>
+            <button class="try" id="myBtn" onclick="getId(1)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="gajar.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>GAJAR HALWA</p>
+            <button class="try" id="myBtn" onclick="getId(3)">Try now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Italian -->
+
+      <div id="italian">
+        <h3>Italian</h3>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="pasta.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>PASTA</p>
+            <button class="try" id="myBtn" onclick="getId(4)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="egg.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>EGG TOAST</p>
+            <button class="try" id="myBtn" onclick="getId(5)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="https://ik.imagekit.io/snesh/proj1/mae-mu-kID9sxbJ3BQ-unsplash.jpg?updatedAt=1709961070442"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>COOKIES</p>
+            <button class="try" id="myBtn" onclick="getId(6)">Try now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chinese -->
+
+      <div id="chinese">
+        <h3>Chinese</h3>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="dumplings.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>DUMPLINGS</p>
+            <button class="try"id="myBtn" onclick="getId(7)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="orijit-chatterjee-wEBg_pYtynw-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>NOODLES</p>
+            <button class="try" id="myBtn" onclick="getId(8)">Try now</button>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="melissa-walker-horn-P5IhVmH6FoM-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>SOUP</p>
+            <button class="try" id="myBtn" onclick="getId(9)" >Try now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vegetarian -->
+
+      <div id="vegetarian">
+        <h3>Vegetarian</h3>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="sal.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>SALAD</p>
+            <button class="try" id="myBtn" onclick="getId(10)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="samosa.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>SAMOSA</p>
+            <button class="try" id="myBtn" onclick="getId(11)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="deryn-macey-B-DrrO3tSbo-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>LETTUCE & CHICKPEAS</p>
+            <button class="try" id="myBtn" onclick="getId(12)">Try now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Spanish -->
+      <div id="spanish">
+        <h3>Spanish</h3>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="sartenporelmango-ySJVH49STmg-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p> SALMOREJO</p>
+            <button class="try" id="myBtn" onclick="getId(13)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="paras-kapoor-XhygVsnUNw4-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>TORTILLA</p>
+            <button class="try" id="myBtn" onclick="getId(14)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="felix-girault-F_eguwdnmNo-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>CHURROS</p>
+            <button class="try" id="myBtn" onclick="getId(15)">Try now</button>
+          </div>
+        </div>
+      </div>
+      <!-- sea-food -->
+      <div id="sea-food">
+        <h3>Sea-Food</h3>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="jonas-allert-MZ0U0g6RQpQ-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>SALMON</p>
+            <button class="try" id="myBtn" onclick="getId(16)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="tugce-acikyurek-XiiflxtN5W8-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>LOBSTER</p>
+            <button class="try" id="myBtn" onclick="getId(17)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="ting-tian-_79ZJS8pV70-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>Shellfish</p>
+            <button class="try" id="myBtn" onclick="getId(18)">Try now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Dessert -->
+      <div id="dessert">
+        <h3>Dessert</h3>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="matheus-ferrero-Doyf6UvvAYU-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>MILK PUDDING</p>
+            <button class="try" id="myBtn" onclick="getId(19)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>CAKE</p>
+            <button class="try" id="myBtn" onclick="getId(20)">Try now</button>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="image-container">
+            <img
+              src="deva-williamson-S2jw81lfrG0-unsplash.jpg"
+              alt="Sample Image"
+            />
+          </div>
+          <div class="text-container">
+            <p>CUPCAKE</p>
+            <button class="try" id="myBtn" onclick="getId(21)">Try now</button>
+          </div>
+        </div>
+     
+      
+    </div>
+    
+    <div class="third_body">
+    </div>
+    <div id="searchWithIngridients">
+      <h1><a href="main.html">Search with Ingredients</a> </h1>
+    </div>
+      <div class="t_items">
+        <div class="rec">
+          <img
+            src="pumpkin.jpg"
+            alt=""
+          />
+          <div class="recipe">
+            <h2>How To Make Pumpkin Soup</h2>
+            <div class="re_lines">
+              <p>
+                Looking to seriously up your pumpkin soup game? When the air
+                turns crisp, our pumpkin soup becomes the perfect companion for
+                those cozy evenings. Try this recipe for a classic bowl of soup.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rec">
+          <div class="recipe recipe2">
+            <h2 class="how">How To Make Garlic Bread</h2>
+            <div class="re_lines">
+              <p>
+                Looking to seriously up your garlic bread game? Try this recipe
+                for a classic toasty loaf. It’s golden brown with crusty edges,
+                extra-garlicky, and a little cheesy. What’s not to love?
+              </p>
+            </div>
+          </div>
+          <img
+            src="garlic.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <p> Follow us:</p>
+      <div class="share">
+        <i class="fa fa-instagram" style="font-size:25px; color:rgb(255, 255, 255);"></i>
+        <i class="fa fa-whatsapp" style="font-size: 25px; color: rgb(255, 255, 255);"></i>
+        <i class="fa fa-facebook" style="font-size: 25px; color: rgb(255, 255, 255);"></i>
+        <i class="fa fa-twitter" style="font-size: 25px; color: #ffffff;"></i>
+    </div>
+    <p class="cr">&copy; 2024 Recipe Sharing Site</p>
+  </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
